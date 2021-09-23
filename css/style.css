@@ -47,10 +47,10 @@ a {
 }
 
 .navbar-collapse .navbar-nav .nav-item .nav-link {
-  color: white;
-  font-family: "Open Sans", sans-serif;
+  color: #d7d8db;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 13px;
   text-transform: uppercase;
 }
 
@@ -70,19 +70,48 @@ a {
 
 .banner-con P {
   color: white;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 22px;
   margin-bottom: 80px;
 }
 
 .banner-con a {
   color: white;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
   font-size: 15px;
   text-transform: uppercase;
   background-color: #e84545;
   padding: 10px 15px;
 }
 /* header part css code end */
+
+/* service part css start  */
+
+#service {
+  padding: 50px 0;
+}
+
+.ser-con {
+  margin: 50px 0;
+  text-align: center;
+}
+
+.ser-con h6 {
+  margin-top: 25px;
+  margin-bottom: 20px;
+  color: #2d3033;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.ser-con p {
+  color: #6c7279;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+/* service part css end */
