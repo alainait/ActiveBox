@@ -156,3 +156,55 @@ a {
 }
 
 /* gallary part css code end */
+
+/* our team part css code start  */
+
+#team {
+  padding: 100px 0;
+}
+
+.our-team h5 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #2d3033;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.our-team h6 {
+  margin-bottom: 15px;
+  color: #e84545;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.our-team p {
+  color: #6c7279;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.our-team ul {
+  margin-left: -13%;
+}
+
+.our-team ul li {
+  float: left;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 2px;
+  border: 1px solid #e8ecee;
+}
+
+.our-team ul li a {
+  color: #c6cacc;
+}
+
+/* our team part css code end */
