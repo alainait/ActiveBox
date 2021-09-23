@@ -115,3 +115,44 @@ a {
   font-size: 14px;
 }
 /* service part css end */
+
+/* gallary part css code start  */
+
+.gly-img {
+  position: relative;
+}
+
+.gly-oly {
+  background-color: #e8454559;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  transform: scale(0);
+  transition: all linear 0.3s;
+}
+
+.gly-oly h6 {
+  margin-top: 35%;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.gly-oly p {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.gly-img:hover .gly-oly {
+  transform: scale(1);
+  transition: all linear 0.3s;
+}
+
+/* gallary part css code end */
