@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Oswald", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.raisul {
+  clear: both;
+}
+
+/* header part css code start  */
+#banner {
+  background: url(../Images/ActiveBox-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-oly {
+  background-color: rgba(0, 0, 0, 0.089);
+  padding-top: 20px;
+  padding-bottom: 80px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar-collapse .navbar-nav .nav-item {
+  padding: 0 20px;
+}
+
+.navbar-collapse .navbar-nav .nav-item .nav-link {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.banner-con {
+  text-align: center;
+  margin-top: 190px;
+}
+
+.banner-con h1 {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 65px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.banner-con P {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  margin-bottom: 80px;
+}
+
+.banner-con a {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  text-transform: uppercase;
+  background-color: #e84545;
+  padding: 10px 15px;
+}
+/* header part css code end */
